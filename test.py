@@ -3,21 +3,6 @@ import numpy as np
 import math
 from sklearn.ensemble import RandomForestClassifier
 
-# def GetEncropy(domain):
-# 	tmp_dict = {}
-# 	domain_len = len(domain)
-# 	for i in range(0,domain_len):
-# 		if domain[i] in tmp_dict.keys():
-# 			tmp_dict[domain[i]] = tmp_dict[domain[i]] + 1
-# 		else:
-# 			tmp_dict[domain[i]] = 1
-# 	Entropy = 0
-# 	for i in tmp_dict.keys():
-# 		p = float(tmp_dict[i]) / domain_len
-# 		Entropy = Entropy - p * math.log(p,2)
-# 	return Entropy
-
-
 Domainlist = []
 
 class DomainClass:
